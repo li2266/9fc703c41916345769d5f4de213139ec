@@ -1,6 +1,5 @@
+// With JQuery
+//$("#ex2").slider({});
 
-(function () {
-    document.getElementById("btn").addEventListener("click", function () {
-        alert("Hi! :)");
-    });
-})();
+// Without JQuery
+var slider = new Slider('#ex2', {});
